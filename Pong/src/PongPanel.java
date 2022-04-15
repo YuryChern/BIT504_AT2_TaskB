@@ -1,5 +1,5 @@
 
-//Version 1.1//
+//Version 1.2//
 
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -25,8 +25,8 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 	private final static int SCORE_FONT_SIZE = 50;
 	private final static int WINNER_FONT_SIZE = 50;
 	private final static String SCORE_FONT_FAMILY = "Serif"; 
-	private final static Color BACKGROUND_COLOUR = Color.WHITE;
-	private final static int TIMER_DELAY = 5;
+	private final static Color BACKGROUND_COLOUR = Color.RED;
+	private final static int TIMER_DELAY = 6;
 	private final static int BALL_MOVEMENT_SPEED = 2;
 	private final static int PADDLE_MOVEMENT_SPEED = 2;
 	private final static int POINTS_TO_WIN = 11;
